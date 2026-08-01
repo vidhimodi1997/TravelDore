@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | TravelDore</title>
+<meta name="description" content="Browse the TravelDore gallery — luxury, culture, nature, adventure, people and food from curated journeys.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div id="loader"><div class="loader-mark">Travel<em>Dore</em></div><div class="loader-bar"></div></div>
+<div id="scroll-progress"></div>
+<div id="cursor-glow"></div>
+
+<header id="site-header">
+  <div class="container navbar">
+    <a href="index.html" class="brand">Travel<em>Dore</em></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="experiences/index.html">Experiences</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="index.html#testimonials">Testimonials</a>
+      <a href="index.html#booking">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="plan-my-journey.html" class="btn btn-primary btn-sm nav-cta">Plan My Journey</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-panel" id="mobile-panel">
+  <button class="mobile-close" id="mobile-close" aria-label="Close menu">&times;</button>
+      <a href="index.html">Home</a>
+      <a href="experiences/index.html">Experiences</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="index.html#testimonials">Testimonials</a>
+      <a href="index.html#booking">Booking</a>
+      <a href="contact.html">Contact</a>
+  <a href="plan-my-journey.html" class="btn btn-primary" style="margin-top:22px;">Plan My Journey</a>
+</div>
+
+<section class="page-hero">
+  <div class="hero-media"><img src="images/gallery-hero-1920x1000.jpg" alt="TravelDore Gallery"></div>
+  <div class="container page-hero-content">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Gallery</div>
+    <h1>Gallery</h1>
+    <p>A Pinterest-style journey through luxury stays, cultural moments, wild landscapes, and the everyday beauty travel reveals.</p>
+  </div>
+</section>
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" style="justify-content:center;">Gallery</div>
+      <h2>Moments, not just destinations</h2>
+      <p>A Pinterest-style journey through luxury, culture, nature, and the everyday beauty of travel.</p>
+    </div>
+    <div class="gallery-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="luxury">Luxury</button><button class="filter-btn" data-filter="culture">Culture</button><button class="filter-btn" data-filter="nature">Nature</button><button class="filter-btn" data-filter="adventure">Adventure</button><button class="filter-btn" data-filter="people">People</button><button class="filter-btn" data-filter="food">Food</button></div>
+    <div class="masonry">
+      <div class="masonry-item reveal" data-category="luxury">
+        <img src="images/g1-700x520.jpg" alt="Boutique villa terrace" loading="lazy">
+        <div class="masonry-veil"><span>Boutique villa terrace</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="nature">
+        <img src="images/g2-700x400.jpg" alt="Himalayan sunrise trail" loading="lazy">
+        <div class="masonry-veil"><span>Himalayan sunrise trail</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="food">
+        <img src="images/g3-700x460.jpg" alt="Street food trail, Vietnam" loading="lazy">
+        <div class="masonry-veil"><span>Street food trail, Vietnam</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="culture">
+        <img src="images/g4-700x620.jpg" alt="Festival of colors" loading="lazy">
+        <div class="masonry-veil"><span>Festival of colors</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="adventure">
+        <img src="images/g5-700x380.jpg" alt="Sea kayaking at dawn" loading="lazy">
+        <div class="masonry-veil"><span>Sea kayaking at dawn</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="people">
+        <img src="images/g6-700x500.jpg" alt="Local artisan at work" loading="lazy">
+        <div class="masonry-veil"><span>Local artisan at work</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="luxury">
+        <img src="images/g7-700x440.jpg" alt="Private plunge pool" loading="lazy">
+        <div class="masonry-veil"><span>Private plunge pool</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="nature">
+        <img src="images/g8-700x560.jpg" alt="Mountain lake reflection" loading="lazy">
+        <div class="masonry-veil"><span>Mountain lake reflection</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="culture">
+        <img src="images/g9-700x520.jpg" alt="Heritage courtyard" loading="lazy">
+        <div class="masonry-veil"><span>Heritage courtyard</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="adventure">
+        <img src="images/g10-700x400.jpg" alt="Cliffside trekking" loading="lazy">
+        <div class="masonry-veil"><span>Cliffside trekking</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="food">
+        <img src="images/g11-700x460.jpg" alt="Candlelit dinner by the sea" loading="lazy">
+        <div class="masonry-veil"><span>Candlelit dinner by the sea</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="people">
+        <img src="images/g12-700x620.jpg" alt="Conversations on the road" loading="lazy">
+        <div class="masonry-veil"><span>Conversations on the road</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="luxury">
+        <img src="images/g13-700x380.jpg" alt="Cabin above the clouds" loading="lazy">
+        <div class="masonry-veil"><span>Cabin above the clouds</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="nature">
+        <img src="images/g14-700x500.jpg" alt="Island cove at low tide" loading="lazy">
+        <div class="masonry-veil"><span>Island cove at low tide</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="culture">
+        <img src="images/g15-700x440.jpg" alt="Lantern-lit old town" loading="lazy">
+        <div class="masonry-veil"><span>Lantern-lit old town</span></div>
+      </div>
+      <div class="masonry-item reveal" data-category="adventure">
+        <img src="images/g16-700x560.jpg" alt="White-water rafting" loading="lazy">
+        <div class="masonry-veil"><span>White-water rafting</span></div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<div id="lightbox"><button class="lb-close">&times;</button><img id="lb-img" src="" alt="Gallery preview"></div>
+<section class="section">
+  <div class="container">
+    <div class="cta-band reveal-scale">
+      <div class="hero-media"><img src="images/gallery-cta-1600x700.jpg" alt=""></div>
+      <div class="cta-band-content">
+        <h2>Seen enough to get inspired?</h2>
+        <p>Let's turn this inspiration into your next curated journey.</p>
+        <a href="plan-my-journey.html" class="btn btn-primary">Plan My Journey</a>
+      </div>
+    </div>
+  </div>
+</section>
+<div id="wa-float" aria-label="Chat on WhatsApp"><svg class="icon" style="width:28px;height:28px;" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.7-1.2A9 9 0 1 0 12 3Z"/><path d="M8.5 8.6c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.5.2.5.7 1.7.7 1.8.1.1.1.3 0 .4-.1.2-.1.3-.3.5-.1.2-.3.3-.4.5-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1.2-.2.7-.8.9-1.1.2-.3.4-.2.6-.1.2.1 1.5.7 1.8.8.3.2.5.2.5.4 0 .2 0 1-.4 1.5-.4.6-1.8 1.1-2.5 1.1-.6 0-1.6-.1-3.4-1.2-2.6-1.6-4.2-4.5-4.4-4.7-.1-.2-1-1.3-1-2.5 0-1.2.6-1.8.8-2Z" fill="currentColor" stroke="none"/></svg></div>
+<div id="wa-box">
+  <div class="wa-head">
+    <div><strong>TravelDore Concierge</strong><div style="font-size:.7rem;opacity:.85;">Typically replies within an hour</div></div>
+    <button id="wa-close" style="color:#fff;font-size:1.1rem;">&times;</button>
+  </div>
+  <div class="wa-body">
+    <div class="wa-bubble">Namaste! Curious about a curated journey? Message us directly on WhatsApp and let's start planning.</div>
+    <a class="wa-btn" href="https://wa.me/917046001515" target="_blank" rel="noopener">Start Chat</a>
+  </div>
+</div>
+
+<footer id="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">Travel<em>Dore</em></a>
+        <p>An Art Of Exploration. Curated journeys designed to inspire, connect, and transform &mdash; crafted around you, not a standard itinerary.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" style="width:1em;height:1em;" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon" style="width:1em;height:1em;" viewBox="0 0 24 24"><path d="M14 21v-7h3l.5-4H14V8c0-1.2.4-2 2.2-2H18V2.2C17.6 2.1 16.3 2 14.9 2 11.8 2 10 3.9 10 7.3V10H7v4h3v7Z"/></svg></a>
+          <a href="https://wa.me/917046001515" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="icon" style="width:1em;height:1em;" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.7-1.2A9 9 0 1 0 12 3Z"/><path d="M8.5 8.6c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.5.2.5.7 1.7.7 1.8.1.1.1.3 0 .4-.1.2-.1.3-.3.5-.1.2-.3.3-.4.5-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1.2-.2.7-.8.9-1.1.2-.3.4-.2.6-.1.2.1 1.5.7 1.8.8.3.2.5.2.5.4 0 .2 0 1-.4 1.5-.4.6-1.8 1.1-2.5 1.1-.6 0-1.6-.1-3.4-1.2-2.6-1.6-4.2-4.5-4.4-4.7-.1-.2-1-1.3-1-2.5 0-1.2.6-1.8.8-2Z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experiences/index.html">Experiences</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Experiences</h4>
+        <ul>
+          <li><a href="experiences/leisure-escapes.html">Leisure Escapes</a></li>
+          <li><a href="experiences/wellness-journeys.html">Wellness Journeys</a></li>
+          <li><a href="experiences/adventure-nature.html">Adventure &amp; Nature</a></li>
+          <li><a href="experiences/signature-experiences.html">Signature Experiences</a></li>
+          <li><a href="experiences/corporate-experiences.html">Corporate Experiences</a></li>
+          <li><a href="experiences/learning-purpose.html">Learning &amp; Purpose</a></li>
+          <li><a href="experiences/luxury-collection.html">Luxury Collection</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get In Touch</h4>
+        <ul class="footer-contact">
+          <li><svg class="icon" style="width:1em;height:1em;" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.7-1.2A9 9 0 1 0 12 3Z"/><path d="M8.5 8.6c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .6.5.2.5.7 1.7.7 1.8.1.1.1.3 0 .4-.1.2-.1.3-.3.5-.1.2-.3.3-.4.5-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1.2-.2.7-.8.9-1.1.2-.3.4-.2.6-.1.2.1 1.5.7 1.8.8.3.2.5.2.5.4 0 .2 0 1-.4 1.5-.4.6-1.8 1.1-2.5 1.1-.6 0-1.6-.1-3.4-1.2-2.6-1.6-4.2-4.5-4.4-4.7-.1-.2-1-1.3-1-2.5 0-1.2.6-1.8.8-2Z" fill="currentColor" stroke="none"/></svg>&nbsp; +91 70460 01515</li>
+          <li><svg class="icon" style="width:1em;height:1em;" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 6.5 8 6.5 8-6.5"/></svg>&nbsp; inquiry@traveldore.com</li>
+          <li><svg class="icon" style="width:1em;height:1em;" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>&nbsp; 10 AM &ndash; 7 PM, Mon &ndash; Sat</li>
+        </ul>
+        <a href="plan-my-journey.html" class="btn btn-outline btn-sm" style="border-color:rgba(255,255,255,.3);">Plan My Journey</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 TravelDore. All rights reserved.</span>
+      <span>Founded by Vidhi Modi &mdash; Crafted with wanderlust.</span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
